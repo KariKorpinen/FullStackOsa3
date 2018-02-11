@@ -1,0 +1,32 @@
+{
+  "name": "phonebackend",
+  "version": "0.0.1",
+  "description": " ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KariKorpinen/FullStackOsa3.git"
+  },
+  "keywords": [],
+  "author": "Kari Korpinen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KariKorpinen/FullStackOsa3/issues"
+  },
+  "homepage": "https://github.com/KariKorpinen/FullStackOsa3#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.18.2",
+    "eslint": "^4.17.0",
+    "nodemon": "^1.14.12"
+  }
+}
